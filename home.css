@@ -1,19 +1,28 @@
-h1{
+h1 {
 	color: whitesmoke;
-	font-family:helvetica;
+	font-family: helvetica;
 	text-align: center;
 	font-size: 50px;
 	font-weight: 400;
+    padding-top: 4%;
 }
 
-h2{
-	color: floralwhite;
-	font-family:helvetica;
+h2 {
+	color: whitesmoke;
+	font-family: helvetica;
 	text-align: center;
 	font-size: 40px;
 }
 
-body{
+h3 {
+    color: whitesmoke;
+    font-family: helvetica;
+    font-weight: lighter;
+    text-align: start;
+    font-size: 25px;
+}
+
+body {
 	background-color: #004AAD;
 }
 
@@ -48,10 +57,61 @@ display: inline-block;
 }
 
 /* On mouse-over */
-.btn:hover {background: background-color: deepskyblue;}
+.btn:hover {background-color: deepskyblue;}
 
 .btn:active {
   background-color: midnightblue;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-map {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.paris{
+    position: fixed;
+    left: 47%;
+    top: 23%;
+    display: block;
+}
+
+.new-york{
+    position: fixed;
+    left: 28%;
+    top: 28%;
+}
+
+.hawaii{
+    position: fixed;
+    left: 15%;
+    top: 37%;
+}
+
+.seoul{
+    position: fixed;
+    left: 75%;
+    top: 33%;
+}
+
+.buenos-aires{
+    position: fixed;
+    left: 33%;
+    top: 65%;
+}
+
+.jaipur{
+    position: fixed;
+    left: 64%;
+    top: 38%;
 }
